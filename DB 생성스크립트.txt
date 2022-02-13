@@ -1,0 +1,104 @@
+CREATE TABLE DISCOUNTRATE
+  (
+    member_level VARCHAR(10) DEFAULT 'SILVER' NOT NULL,
+    rate         NUMBER(3) NOT NULL,
+    CONSTRAINT DISCOUNTRATE_PK PRIMARY KEY (member_level),
+    CONSTRAINT DISCOUNTRATE_rate_CK CHECK (member_level IN ('VIP', 'GOLD', 'SILVER'))
+  );
+CREATE TABLE MEMBER
+  (
+    member_num   VARCHAR(10) NOT NULL,
+    member_id    VARCHAR(10) NOT NULL,
+    member_pw    VARCHAR(70) NOT NULL,
+    member_name  VARCHAR(20) NOT NULL,
+    member_phone VARCHAR(20) NOT NULL,
+    member_level VARCHAR(10) DEFAULT 'SILVER' NOT NULL,
+    member_card  VARCHAR(30) NOT NULL,
+    member_approved VARCHAR(10) DEFAULT 'N' NOT NULL
+    CONSTRAINT MEMBER_PK PRIMARY KEY (member_num),
+    CONSTRAINT MEMBER_member_level_FK FOREIGN KEY(member_level) REFERENCES DISCOUNTRATE(member_level)
+  );
+CREATE TABLE MOVIE
+  (
+    movie_num      VARCHAR(10) NOT NULL,
+    movie_title    VARCHAR(30) NOT NULL,
+    movie_director VARCHAR(20) NOT NULL,
+    movie_actors   VARCHAR(100) NOT NULL,
+    movie_poster BLOB,
+    CONSTRAINT MOVIE_PK PRIMARY KEY (movie_num)
+  );
+CREATE TABLE THEATER
+  (
+    theater_num  VARCHAR(10) NOT NULL,
+    theater_form VARCHAR(10) NOT NULL,
+    CONSTRAINT THEATER_PK PRIMARY KEY (theater_num),
+    CONSTRAINT THEATER_theater_form_CK CHECK (theater_form IN ('2D', '3D', 'X-Screen'))
+  );
+CREATE TABLE THEATERSEAT
+  (
+    theater_num VARCHAR(10) NOT NULL,
+    seat_zone   VARCHAR(5) NOT NULL,
+    seat_num    VARCHAR(10) NOT NULL,
+    CONSTRAINT THEATERSEAT_PK PRIMARY KEY (theater_num,seat_zone,seat_num),
+    CONSTRAINT THEATERSEAT_theater_num_FK FOREIGN KEY(theater_num) REFERENCES THEATER(theater_num)
+  );
+CREATE TABLE MOVIEPRICE
+  (
+    theater_num VARCHAR(10) NOT NULL,
+    price       NUMBER(6) NOT NULL,
+    CONSTRAINT MOVIEPRICE_PK PRIMARY KEY (theater_num),
+    CONSTRAINT MOVIEPRICE_price_CK CHECK (theater_num IN ('1', '2', '3'))
+  );
+CREATE TABLE SCHEDULE
+  (
+    movie_num VARCHAR(10) NOT NULL,
+    showtime DATE NOT NULL,
+    theater_num VARCHAR(10) NOT NULL,
+    price       NUMBER(6) NOT NULL,
+    CONSTRAINT SCHEDULE_PK PRIMARY KEY (movie_num,showtime,theater_num),
+    CONSTRAINT SCHEDULE_movie_num_FK FOREIGN KEY(movie_num) REFERENCES MOVIE(movie_num),
+    CONSTRAINT SCHEDULE_theater_num_FK FOREIGN KEY(theater_num) REFERENCES THEATER(theater_num),
+    CONSTRAINT SCHEDULE_price_CK CHECK (price>0)
+  );
+CREATE TABLE RESERVATIONSEAT
+  (
+    movie_num VARCHAR(10) NOT NULL,
+    showtime DATE NOT NULL,
+    theater_num VARCHAR(10) NOT NULL,
+    seat_zone   VARCHAR(5) NOT NULL,
+    seat_num    VARCHAR(10) NOT NULL,
+    member_num  VARCHAR(10) NOT NULL,
+    reservation_date DATE NOT NULL,
+    payment VARCHAR(10) NOT NULL,
+    reservation_num VARCHAR(20) NOT NULL,
+    CONSTRAINT RESERVATIONSEAT_PK PRIMARY KEY (movie_num,showtime,theater_num,seat_zone,seat_num,member_num),
+    CONSTRAINT RESERVATIONSEAT_SCHEDULE_FK FOREIGN KEY(movie_num,showtime,theater_num) REFERENCES SCHEDULE(movie_num,showtime,theater_num),
+    CONSTRAINT RESERVATIONSEAT_THEATERSEAT_FK FOREIGN KEY(theater_num,seat_zone,seat_num) REFERENCES THEATERSEAT(theater_num,seat_zone,seat_num),
+    CONSTRAINT RESERVATIONSEAT_member_num_FK FOREIGN KEY(member_num) REFERENCES MEMBER(member_num),
+    CONSTRAINT payment_CK CHECK (payment>0)
+  );
+
+CREATE SEQUENCE  SEQ_MEMBER_NUM  
+	INCREMENT BY 1
+	START WITH 2021001
+	MINVALUE 1
+	MAXVALUE 10000000   
+	NOCACHE  
+	NOCYCLE ;
+
+CREATE SEQUENCE  SEQ_MOVIE_NUM  
+	INCREMENT BY 1
+	START WITH 2021001
+	MINVALUE 1
+	MAXVALUE 10000000
+	NOCACHE  
+	NOCYCLE ;
+
+CREATE SEQUENCE  SEQ_RESERVATION_NUM  
+	INCREMENT BY 1
+	START WITH 100
+	MINVALUE 1
+	MAXVALUE 999
+	NOCACHE  
+	NOCYCLE ;
+

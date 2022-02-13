@@ -1,0 +1,70 @@
+E:\SCHCINEMA\SCHCINEMA\bin\Debug\SCHCINEMA.exe.config
+E:\SCHCINEMA\SCHCINEMA\bin\Debug\SCHCINEMA.exe
+E:\SCHCINEMA\SCHCINEMA\bin\Debug\SCHCINEMA.pdb
+E:\SCHCINEMA\SCHCINEMA\obj\Debug\SCHCINEMA.csproj.AssemblyReference.cache
+E:\SCHCINEMA\SCHCINEMA\obj\Debug\SCHCINEMA.Form1.resources
+E:\SCHCINEMA\SCHCINEMA\obj\Debug\SCHCINEMA.Properties.Resources.resources
+E:\SCHCINEMA\SCHCINEMA\obj\Debug\SCHCINEMA.csproj.GenerateResource.cache
+E:\SCHCINEMA\SCHCINEMA\obj\Debug\SCHCINEMA.csproj.CoreCompileInputs.cache
+E:\SCHCINEMA\SCHCINEMA\obj\Debug\SCHCINEMA.exe
+E:\SCHCINEMA\SCHCINEMA\obj\Debug\SCHCINEMA.pdb
+E:\SCHCINEMA\SCHCINEMA\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+E:\SCHCINEMA\SCHCINEMA\bin\Debug\Oracle.DataAccess.dll
+E:\SCHCINEMA\SCHCINEMA\bin\Debug\Oracle.ManagedDataAccess.dll
+E:\SCHCINEMA\SCHCINEMA\bin\Debug\System.Buffers.dll
+E:\SCHCINEMA\SCHCINEMA\bin\Debug\System.Memory.dll
+E:\SCHCINEMA\SCHCINEMA\bin\Debug\System.Numerics.Vectors.dll
+E:\SCHCINEMA\SCHCINEMA\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\SCHCINEMA\SCHCINEMA\bin\Debug\System.Text.Encodings.Web.dll
+E:\SCHCINEMA\SCHCINEMA\bin\Debug\System.Text.Json.dll
+E:\SCHCINEMA\SCHCINEMA\bin\Debug\System.Threading.Tasks.Extensions.dll
+E:\SCHCINEMA\SCHCINEMA\bin\Debug\System.ValueTuple.dll
+E:\SCHCINEMA\SCHCINEMA\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+E:\SCHCINEMA\SCHCINEMA\bin\Debug\System.Buffers.xml
+E:\SCHCINEMA\SCHCINEMA\bin\Debug\System.Memory.xml
+E:\SCHCINEMA\SCHCINEMA\bin\Debug\System.Numerics.Vectors.xml
+E:\SCHCINEMA\SCHCINEMA\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\SCHCINEMA\SCHCINEMA\bin\Debug\System.Text.Encodings.Web.xml
+E:\SCHCINEMA\SCHCINEMA\bin\Debug\System.Text.Json.xml
+E:\SCHCINEMA\SCHCINEMA\bin\Debug\System.Threading.Tasks.Extensions.xml
+E:\SCHCINEMA\SCHCINEMA\bin\Debug\System.ValueTuple.xml
+E:\SCHCINEMA\SCHCINEMA\obj\Debug\SCHCINEMA.csproj.CopyComplete
+E:\SCHCINEMA\SCHCINEMA\obj\Debug\SCHCINEMA.Form2.resources
+E:\SCHCINEMA\SCHCINEMA\obj\Debug\SCHCINEMA.Form3.resources
+E:\SCHCINEMA\SCHCINEMA\obj\Debug\SCHCINEMA.Form4.resources
+E:\SCHCINEMA\SCHCINEMA\obj\Debug\SCHCINEMA.Form5.resources
+C:\Users\ECW\OneDrive - sch.ac.kr\문서\SCHCINEMA\SCHCINEMA\bin\Debug\SCHCINEMA.exe.config
+C:\Users\ECW\OneDrive - sch.ac.kr\문서\SCHCINEMA\SCHCINEMA\bin\Debug\SCHCINEMA.exe
+C:\Users\ECW\OneDrive - sch.ac.kr\문서\SCHCINEMA\SCHCINEMA\bin\Debug\SCHCINEMA.pdb
+C:\Users\ECW\OneDrive - sch.ac.kr\문서\SCHCINEMA\SCHCINEMA\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\ECW\OneDrive - sch.ac.kr\문서\SCHCINEMA\SCHCINEMA\bin\Debug\Oracle.DataAccess.dll
+C:\Users\ECW\OneDrive - sch.ac.kr\문서\SCHCINEMA\SCHCINEMA\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\ECW\OneDrive - sch.ac.kr\문서\SCHCINEMA\SCHCINEMA\bin\Debug\System.Buffers.dll
+C:\Users\ECW\OneDrive - sch.ac.kr\문서\SCHCINEMA\SCHCINEMA\bin\Debug\System.Memory.dll
+C:\Users\ECW\OneDrive - sch.ac.kr\문서\SCHCINEMA\SCHCINEMA\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\ECW\OneDrive - sch.ac.kr\문서\SCHCINEMA\SCHCINEMA\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\ECW\OneDrive - sch.ac.kr\문서\SCHCINEMA\SCHCINEMA\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\ECW\OneDrive - sch.ac.kr\문서\SCHCINEMA\SCHCINEMA\bin\Debug\System.Text.Json.dll
+C:\Users\ECW\OneDrive - sch.ac.kr\문서\SCHCINEMA\SCHCINEMA\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\ECW\OneDrive - sch.ac.kr\문서\SCHCINEMA\SCHCINEMA\bin\Debug\System.ValueTuple.dll
+C:\Users\ECW\OneDrive - sch.ac.kr\문서\SCHCINEMA\SCHCINEMA\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\ECW\OneDrive - sch.ac.kr\문서\SCHCINEMA\SCHCINEMA\bin\Debug\System.Buffers.xml
+C:\Users\ECW\OneDrive - sch.ac.kr\문서\SCHCINEMA\SCHCINEMA\bin\Debug\System.Memory.xml
+C:\Users\ECW\OneDrive - sch.ac.kr\문서\SCHCINEMA\SCHCINEMA\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\ECW\OneDrive - sch.ac.kr\문서\SCHCINEMA\SCHCINEMA\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\ECW\OneDrive - sch.ac.kr\문서\SCHCINEMA\SCHCINEMA\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\ECW\OneDrive - sch.ac.kr\문서\SCHCINEMA\SCHCINEMA\bin\Debug\System.Text.Json.xml
+C:\Users\ECW\OneDrive - sch.ac.kr\문서\SCHCINEMA\SCHCINEMA\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\ECW\OneDrive - sch.ac.kr\문서\SCHCINEMA\SCHCINEMA\bin\Debug\System.ValueTuple.xml
+C:\Users\ECW\OneDrive - sch.ac.kr\문서\SCHCINEMA\SCHCINEMA\obj\Debug\SCHCINEMA.csproj.AssemblyReference.cache
+C:\Users\ECW\OneDrive - sch.ac.kr\문서\SCHCINEMA\SCHCINEMA\obj\Debug\SCHCINEMA.Mainform.resources
+C:\Users\ECW\OneDrive - sch.ac.kr\문서\SCHCINEMA\SCHCINEMA\obj\Debug\SCHCINEMA.Properties.Resources.resources
+C:\Users\ECW\OneDrive - sch.ac.kr\문서\SCHCINEMA\SCHCINEMA\obj\Debug\SCHCINEMA.csproj.GenerateResource.cache
+C:\Users\ECW\OneDrive - sch.ac.kr\문서\SCHCINEMA\SCHCINEMA\obj\Debug\SCHCINEMA.csproj.CoreCompileInputs.cache
+C:\Users\ECW\OneDrive - sch.ac.kr\문서\SCHCINEMA\SCHCINEMA\obj\Debug\SCHCINEMA.csproj.CopyComplete
+C:\Users\ECW\OneDrive - sch.ac.kr\문서\SCHCINEMA\SCHCINEMA\obj\Debug\SCHCINEMA.exe
+C:\Users\ECW\OneDrive - sch.ac.kr\문서\SCHCINEMA\SCHCINEMA\obj\Debug\SCHCINEMA.pdb
+C:\Users\ECW\OneDrive - sch.ac.kr\문서\SCHCINEMA\SCHCINEMA\obj\Debug\SCHCINEMA.MovieInfoForm.resources
+C:\Users\ECW\OneDrive - sch.ac.kr\문서\SCHCINEMA\SCHCINEMA\obj\Debug\SCHCINEMA.ReservForm.resources
+C:\Users\ECW\OneDrive - sch.ac.kr\문서\SCHCINEMA\SCHCINEMA\obj\Debug\SCHCINEMA.PaymentForm.resources
+C:\Users\ECW\OneDrive - sch.ac.kr\문서\SCHCINEMA\SCHCINEMA\obj\Debug\SCHCINEMA.ScheduleForm.resources
