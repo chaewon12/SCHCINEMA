@@ -9,7 +9,7 @@ namespace SCHCINEMA
     {
         private static string datasourcestr = "(DESCRIPTION= (ADDRESS = (PROTOCOL = TCP)(HOST = localhost)(PORT = 1521))(CONNECT_DATA =(SERVER = DEDICATED)(SERVICE_NAME = orcl)));";
         private static string connectionStr = "User ID=ID; Password=Password; Data Source=" + datasourcestr; //oracle 서버 연결 (아이디, 비번 설정)
-        private string connectSqlStr = "User ID=djacltk; Password=dja1234; Server=localhost; Initial Catalog=orcl;"; //SqlConnection용 서버 연결
+        private string connectSqlStr = "User ID=ID; Password=Password; Server=localhost; Initial Catalog=orcl;"; //SqlConnection용 서버 연결
         private OracleConnection conn;
         private SqlConnection sqlconn;
         private OracleCommand cmd;
