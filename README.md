@@ -1,5 +1,5 @@
 # SCHCINEMA
-Movie reservation program for Database(MySQL) practice  
+Movie reservation program for Database(OracleSQL) practice  
       
 It contains UI/UX, DB table statement/creation script/sample data, etc.    
 It's not the final version. There are still functions that I couldn't add.  
